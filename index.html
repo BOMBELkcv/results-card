@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="result-box">
+          <p class="result-tag">Your Result</p>
+          <div class="score">
+            <p class="current-score">76</p>
+            <p class="max-score">of 100</p>
+          </div>
+          <p class="score-description">Great</p>
+          <p class="score-text">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="summary-box">
+          <p class="summary-heading">Summary</p>
+          <div class="summary-card card--reaction">
+            <div class="summary-name">
+              <img src="assets/images/icon-reaction.svg" />
+              <p class="card-name">Reaction</p>
+            </div>
+            <p class="card-score"><strong>80</strong> / 100</p>
+          </div>
+          <div class="summary-card card--memory">
+            <div class="summary-name">
+              <img src="assets/images/icon-memory.svg" />
+              <p class="card-name">Memory</p>
+            </div>
+            <p class="card-score"><strong>92</strong> / 100</p>
+          </div>
+          <div class="summary-card card--verbal">
+            <div class="summary-name">
+              <img src="assets/images/icon-verbal.svg" />
+              <p class="card-name">Verbal</p>
+            </div>
+            <p class="card-score"><strong>61</strong> / 100</p>
+          </div>
+          <div class="summary-card card--visual">
+            <div class="summary-name">
+              <img src="assets/images/icon-visual.svg" />
+              <p class="card-name">Visual</p>
+            </div>
+            <p class="card-score"><strong>73</strong> / 100</p>
+          </div>
+
+          <button class="btn">Continue</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
